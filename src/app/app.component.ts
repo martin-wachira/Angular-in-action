@@ -7,11 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  stocks: Array<StockInterface>;
-  title = 'Angular-Action';
-  constructor(service: StocksService){
-    service.load(['AAPL']).subscribe(stocks => {
-      this.stocks = stocks;
-    });
-  }
+
 }
