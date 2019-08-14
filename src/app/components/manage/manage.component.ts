@@ -1,8 +1,9 @@
+
 import { StocksService } from './../../services/stocks.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-manage',
+  selector: 'manage',
   templateUrl: './manage.component.html',
   styleUrls: ['./manage.component.css']
 })

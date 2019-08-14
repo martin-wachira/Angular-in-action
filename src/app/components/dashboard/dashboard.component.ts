@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { StockInterface } from 'src/app/services/stocks.service';
 
 @Component({
-  selector: 'app-dashboard',
+  selector: 'dashboard',
   templateUrl: './dashboard.component.html',
   styleUrls: ['./dashboard.component.css']
 })
